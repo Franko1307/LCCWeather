@@ -1,5 +1,5 @@
-from db import db_session
-from models import Lectura
+from app.servidor_clima.models import Lectura
+from app import db
 import requests
 
 apikey = '9f7f4e7ce8bb9b072eba080ed7b9efd6'
@@ -18,6 +18,6 @@ def update():
         json['main']['pressure'],
         json['main']['humidity']
     )
-    db_session.add(l)
+    db.session.add(l)
 
-    db_session.commit()
+    db.session.commit()

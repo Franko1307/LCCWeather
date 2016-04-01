@@ -19,8 +19,6 @@ def main():
         password = getpass("Contraseña: ")
         assert password == getpass('Vuelve a introducir ontraseña: ')
 
-        print(password)
-
         user = User(
             username=username,
             password=bcrypt.generate_password_hash(password)

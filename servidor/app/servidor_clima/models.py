@@ -23,6 +23,16 @@ class Lectura(db.Model):
         return '<User %r>' % (self.temperatura)
 
 
+class Alert(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    text = db.Column(db.String)
+    active = db.Column(db.Boolean, default=False)
+
+    def __init__(self, text=None, active=False):
+        self.text = text
+        self.active = active
+
+
 class User(db.Model):
     username = db.Column(db.String, primary_key=True)
     password = db.Column(db.String)
