@@ -1,0 +1,30 @@
+{% extends 'layout.html' %}
+
+{% block head %}
+{{ super() }}
+  <link rel="stylesheet" href="{{ url_for('static', filename='login_styles.css') }}">
+{% endblock %}
+
+
+{% block content %}
+<div class="cabecera">
+  <h1>LCC Weather</h1>
+  <p class="lead">Interfaz de administrador de LCC Weather</p>
+</div>
+<form class="formulario-login" action="{{ url_for('servidor_clima.login') }}" method="POST">
+  {{ form.csrf_token }}
+
+  {{ super() }}
+
+
+  <div class="form-group">
+    <label for="usernameInput">Nombre de usuario</label>
+    {{ form.username(class="form-control", id="usernameInput") }}
+  </div>
+  <div class="form-group">
+    <label for="passwordInput">Contraseña</label>
+    {{ form.password(class="form-control", id="passwordInput") }}
+  </div>
+  <button type="submit" class="btn btn-default">Ingresar</button>
+</form>
+{% endblock %}

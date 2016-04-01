@@ -1,0 +1,16 @@
+
+.cabecera {
+  padding: 40px 15px;
+  text-align: center;
+}
+.formulario-login {
+  padding: 0 10px;
+  width: 300px;
+  margin: auto;
+}
+.iconos {
+  text-align: right;
+}
+.boton {
+  margin-top: 20px;
+}
