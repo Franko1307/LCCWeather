@@ -35,6 +35,7 @@ def login():
 
     return render_template('login.html', form=form)
 
+
 @mod.route('/logout', methods=['GET'])
 @login_required
 def logout():
@@ -46,7 +47,13 @@ def logout():
     return redirect(url_for('.login'))
 
 
-@mod.route('/alertas', methods=["GET", "POST"])
+@mod.route('/alertas', methods=["GET"])
 @login_required
 def alert_list():
     return render_template('alerts.html')
+
+
+@mod.route('/exportar', methods=["GET"])
+@login_required
+def export_data():
+    return render_template('export.html')
