@@ -1,23 +1,20 @@
-Lista de cosas que necesitamos::
-Página donde se buscaron las cosas:https://www.adafruit.com/
+Lista de cosas que necesitamos:
 
-Breadboards
-cables
-resistores 
-MCP3008
-DHT22
-BMP085
-UVI-01
-LDR
-TGS 2600
-MICS-2710
-MICS-5525
-Raspberry
+1) Adafruit AM2302 (wired DHT22) temperature-humidity sensor [ADA393]
+link : http://www.amazon.com/Adafruit-AM2302-temperature-humidity-sensor-ADA393/dp/B00SK6940I/ref=sr_1_2?s=electronics&ie=UTF8&qid=1459481982&sr=1-2&keywords=DHT22
 
-Aquí hay unos links de amazon de dónde se pueden conseguir:
-http://www.amazon.com/Adafruit-AM2302-temperature-humidity-sensor-ADA393/dp/B00SK6940I/ref=sr_1_2?s=electronics&ie=UTF8&qid=1459481982&sr=1-2&keywords=DHT22
-http://www.amazon.com/SainSmart-Digital-Barometric-Pressure-Arduino/dp/B009A525QS/ref=sr_1_1?s=electronics&ie=UTF8&qid=1459481901&sr=1-1&keywords=BMP085
-http://www.amazon.com/SainSmart-TGS2600-Contaminants-Detector-Raspberry/dp/B00KCEOLIG/ref=sr_1_1?s=electronics&ie=UTF8&qid=1459481788&sr=1-1&keywords=TGS+2600
-http://www.amazon.com/Quality-GL5537-Photoresistor-Light-Dependen-Resistors/dp/B00KWZIUHS/ref=sr_1_2?s=electronics&ie=UTF8&qid=1459481812&sr=1-2&keywords=LDR
-http://www.amazon.com/Adafruit-MCP3008-8-Channel-10-Bit-Interface/dp/B00NAY3RB2/ref=pd_cp_23_1?ie=UTF8&refRID=1T3WE4M91M5RDW8X2HE1
-http://www.amazon.com/T-Cobbler-Breakout-Raspberry-GPIO-Cable/dp/B00JE1T1WY/ref=sr_1_1?s=pc&ie=UTF8&qid=1459482164&sr=1-1&keywords=cobbler
+2) SainSmart BMP085 Module Digital Barometric Pressure Sensor BOSCH Arduino ATMEL
+link : http://www.amazon.com/SainSmart-Digital-Barometric-Pressure-Arduino/dp/B009A525QS/ref=sr_1_1?s=electronics&ie=UTF8&qid=1459481901&sr=1-1&keywords=BMP085
+
+3) SainSmart TGS2600 Air Contaminants Sensor Detector for Arduino Raspberry Pi AVR ARM Figaro
+link: http://www.amazon.com/SainSmart-TGS2600-Contaminants-Detector-Raspberry/dp/B00KCEOLIG/ref=sr_1_1?s=electronics&ie=UTF8&qid=1459481788&sr=1-1&keywords=TGS+2600
+
+4) High Quality 50 Pcs GL5537 Photoresistor LDR Photo Light-Dependen t Resistors
+link: http://www.amazon.com/Quality-GL5537-Photoresistor-Light-Dependen-Resistors/dp/B00KWZIUHS/ref=sr_1_2?s=electronics&ie=UTF8&qid=1459481812&sr=1-2&keywords=LDR
+
+5) Adafruit MCP3008 - 8-Channel 10-Bit ADC With SPI Interface [ADA856]
+link: http://www.amazon.com/Adafruit-MCP3008-8-Channel-10-Bit-Interface/dp/B00NAY3RB2/ref=pd_cp_23_1?ie=UTF8&refRID=1T3WE4M91M5RDW8X2HE1
+
+6) Pi T-Cobbler Breakout Kit for Raspberry Pi with GPIO Cable - Assembled!
+link: http://www.amazon.com/T-Cobbler-Breakout-Raspberry-GPIO-Cable/dp/B00JE1T1WY/ref=sr_1_1?s=pc&ie=UTF8&qid=1459482164&sr=1-1&keywords=cobbler
+
