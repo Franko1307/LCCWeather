@@ -56,4 +56,4 @@ def alert_list():
 @mod.route('/exportar', methods=["GET"])
 @login_required
 def export_data():
-    return render_template('export.html')
+    return render_template('exportar.html')
