@@ -1,6 +1,9 @@
 
+body {
+  background-color: #e8e8e8;
+}
 .cabecera {
-  padding: 40px 15px;
+  padding: 40px 15px 0 15px;
   text-align: center;
 }
 .formulario-login {
@@ -13,4 +16,19 @@
 }
 .boton {
   margin-top: 20px;
+}
+
+.formulario-login input[type="text"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.formulario-login input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.boton-entrar {
+  width: 100%;
 }

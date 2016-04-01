@@ -11,7 +11,7 @@
   <body>
 
     {% set navigation_bar = [
-      ('alerts', 'servidor_clima.alert_list', 'Gestion de alertas'),
+      ('alerts', 'servidor_clima.alert_list', 'Gestión de alertas'),
       ('export', 'servidor_clima.export_data', 'Exportar datos')
     ] -%}
 
@@ -21,6 +21,7 @@
     } -%}
     {% set active_id = active_id|default('index') %}
 
+    {% if current_user.is_authenticated %}
     <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
 
@@ -44,13 +45,15 @@
           </ul>
           {% if current_user.is_authenticated %}
             <div class="navbar-form navbar-right">
-              <a class="btn btn-default" href="{{ url_for('servidor_clima.logout') }}">Cerrar session</a>
+              <a class="btn btn-primary" href="{{ url_for('servidor_clima.logout') }}">Cerrar sessión</a>
             </div>
           {% endif %}
 
         </div>
       </div>
     </nav>
+
+    {% endif %}
 
     <div class="container">
       {% block content %}
